@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Ödevi</title>
+  </head>
+  <body>
+    <h3>Bir sonraki adıma geçmek için formları dolduralım</h3>
+    <form action="https://formsubmit.co/melisaserap@gmail.com" method="POST">
+      <div>
+        <label for="First-name">İsim</label>
+        <input type="text" id="First-name" name="First-name" />
+      </div>
+      <br />
+      <div>
+        <label for="Last-name">Soy İsim</label>
+        <input type="text" id="Last-name" name="Last-name" />
+      </div>
+      <br />
+      <div>
+        <label for="email">E-posta</label>
+        <input type="email" id="email" name="email" />
+      </div>
+      <br />
+      <div>
+        <label for="age">Yaş</label>
+        <input type="number" id="age" min="15" max="70" name="age" />
+      </div>
+      <br />
+      <div>
+        <label for="message">Mesaj</label>
+        <br />
+        <textarea type="text" id="message" rows="4" name="message"> </textarea>
+      </div>
+      <br />
+      <label for="like">Sitemizi ne kadar beğendiniz?</label>
+      <input type="range" id="like" name="like" />
+      <br />
+      <button type="submit">Gönder</button>
+    </form>
+  </body>
+</html>
